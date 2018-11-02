@@ -153,35 +153,8 @@ code {
     height: 100%;
 }
 
-#header {
-    margin: 1em 0;
-}
-
-#search {
-    text-align: right;
-}
-
-#search input  {
-    padding: 0 5px;
-    border: 1px solid #ccc;
-}
-
 #main, .post {
     margin: 1em 0;
-}
-
-#footer {
-    margin: 1em 0;
-}
-
-#footer .author {
-    font-size: 0.8em;
-}
-
-#footer .author a {
-    font-weight: bold;
-    font-style: normal;
-    color: #c00;
 }
 
 #main-nav ul {
@@ -199,70 +172,6 @@ code {
     #main-nav li:first-child {
         margin-left: 0;
     }
-
-#copyright {
-    margin: 1em 0;
-    text-align: right;
-}
-
-    #copyright a:hover {
-        text-decoration: none;
-        text-transform: lowercase;
-    }
-
-#posts,
-#posts ul,
-#posts li {
-    margin: 1em 0;
-    padding: 0;
-}
-
-#posts time {
-    font-size: 0.8em;
-}
-
-#posts-nav,
-#posts-nav ul {
-    margin: 1em 0;
-    padding: 0;
-}
-
-#posts-nav li {
-    width: 33.3%;
-    float: left;
-    font-size: 0.8em;
-    font-weight: bold;
-}
-
-#posts-nav .pagination {
-    text-align: center;
-}
-
-#posts-nav .older {
-    text-align: right;
-}
-
-#posts h2 {
-    margin: 0;
-    padding: 0;
-}
-
-#post {
-    margin: 1em 0;
-}
-
-#post header {
-    margin: 1em 0;
-}
-
-#post header time {
-    display: block;
-    font-size: 0.8em;
-}
-
-#post header h1 {
-    margin: 0;
-}
 
 #about {
     height: 80vh;
@@ -311,7 +220,6 @@ code {
 
 
 
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -321,68 +229,6 @@ code {
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
 
-}
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
 }
 
 /* ==========================================================================
