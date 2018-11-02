@@ -1,0 +1,453 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    color: #c00;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    text-shadow: 1px 1px 1px rgba(127,127,127,0.3);
+}
+
+html {
+    overflow-y: scroll;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+body {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+a,
+a:visited {
+    color: #17d;
+    text-decoration: none;
+}
+
+    a:active {
+        color: #c00;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+    margin: 0;
+    padding: 1em 40px;
+    background: #eee;
+}
+
+pre {
+    padding: 1em 40px;
+    line-height: 1;
+    background: #eee;
+}
+
+code {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+}
+
+.video-embed {
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-embed.widescreen {
+    padding-bottom: 57.25%;
+}
+
+.video-embed.vimeo {
+    padding-top: 0;
+}
+
+.video-embed iframe,.video-embed object,.video-embed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    margin: 1em 0;
+}
+
+#search {
+    text-align: right;
+}
+
+#search input  {
+    padding: 0 5px;
+    border: 1px solid #ccc;
+}
+
+#main, .post {
+    margin: 1em 0;
+}
+
+#footer {
+    margin: 1em 0;
+}
+
+#footer .author {
+    font-size: 0.8em;
+}
+
+#footer .author a {
+    font-weight: bold;
+    font-style: normal;
+    color: #c00;
+}
+
+#main-nav ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+#main-nav li {
+    margin-left: 10px;
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+    #main-nav li:first-child {
+        margin-left: 0;
+    }
+
+#copyright {
+    margin: 1em 0;
+    text-align: right;
+}
+
+    #copyright a:hover {
+        text-decoration: none;
+        text-transform: lowercase;
+    }
+
+#posts,
+#posts ul,
+#posts li {
+    margin: 1em 0;
+    padding: 0;
+}
+
+#posts time {
+    font-size: 0.8em;
+}
+
+#posts-nav,
+#posts-nav ul {
+    margin: 1em 0;
+    padding: 0;
+}
+
+#posts-nav li {
+    width: 33.3%;
+    float: left;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#posts-nav .pagination {
+    text-align: center;
+}
+
+#posts-nav .older {
+    text-align: right;
+}
+
+#posts h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#post {
+    margin: 1em 0;
+}
+
+#post header {
+    margin: 1em 0;
+}
+
+#post header time {
+    display: block;
+    font-size: 0.8em;
+}
+
+#post header h1 {
+    margin: 0;
+}
+
+#about {
+    height: 80vh;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0;
+}
+
+#about #main-nav {
+    margin: 1em 0;
+}
+
+#about #main-nav ul {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#about #main-nav li {
+    margin-left: 20px;
+    text-transform: none;
+}
+
+    #about #main-nav li:first-child {
+        margin-left: 0;
+    }
+
+#resume small {
+    font-size: 0.5em;
+}
+
+.name {
+    text-transform: capitalize;
+    color: #c00;
+}
+
+#resume h2 {
+    text-transform: uppercase;
+}
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
