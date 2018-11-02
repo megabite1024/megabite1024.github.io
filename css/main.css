@@ -218,6 +218,18 @@ code {
     text-transform: uppercase;
 }
 
+#resume .fontawesome-map-marker {
+    color: #c00;
+}
+
+#resume .fontawesome-github {
+    color: #222;
+}
+
+#resume .fontawesome-envelope {
+    color: #888;
+}
+
 
 
 /* ==========================================================================
