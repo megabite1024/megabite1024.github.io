@@ -74,7 +74,6 @@ textarea {
     margin-right: .2em;
     text-align: center;
     font-variant: normal;
-    color: #c00;
     text-transform: none;
     line-height: 1em;
     margin-left: .2em;
@@ -83,7 +82,7 @@ textarea {
 
 html {
     overflow-y: scroll;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
 }
 
@@ -181,6 +180,7 @@ code {
     text-align: center;
 }
 
+#about h1,
 #about h2 {
     font-size: 2em;
     font-weight: normal;
