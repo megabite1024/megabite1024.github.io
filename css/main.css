@@ -63,23 +63,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-[class*="fontawesome-"]:before {
-    font-family: 'FontAwesome', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: .2em;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: .2em;
-    text-shadow: 1px 1px 1px rgba(127,127,127,0.3);
-}
-
 html {
     overflow-y: scroll;
     font-family: 'Roboto', sans-serif;
@@ -218,15 +201,15 @@ code {
     text-transform: uppercase;
 }
 
-#resume .fontawesome-map-marker {
+#resume .fa-map-marker {
     color: #c00;
 }
 
-#resume .fontawesome-github {
+#resume .fa-github {
     color: #222;
 }
 
-#resume .fontawesome-envelope {
+#resume .fa-envelope {
     color: #888;
 }
 
