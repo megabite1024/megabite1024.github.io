@@ -213,7 +213,10 @@ code {
 }
 
 #resume .fa-envelope-o {
-    color: #888;
+}
+
+#post header time {
+    display: block;
 }
 
 #post h2 {
