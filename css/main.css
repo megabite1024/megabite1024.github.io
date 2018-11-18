@@ -118,7 +118,6 @@ blockquote {
 
 pre {
     padding: 1em 40px;
-    line-height: 1;
     background: #eee;
 }
 
@@ -152,25 +151,14 @@ code {
     height: 100%;
 }
 
-#main, .post {
+.name {
+    text-transform: capitalize;
+    color: #c00;
+}
+
+#main {
     margin: 1em 0;
 }
-
-#main-nav ul {
-    margin: 0;
-    padding: 0;
-    font-size: 0.8em;
-}
-
-#main-nav li {
-    margin-left: 10px;
-    display: inline-block;
-    text-transform: lowercase;
-}
-
-    #main-nav li:first-child {
-        margin-left: 0;
-    }
 
 #about {
     height: 80vh;
@@ -192,12 +180,15 @@ code {
 }
 
 #about #main-nav ul {
+    margin: 0;
+    padding: 0;
     font-size: 1em;
     font-weight: bold;
 }
 
 #about #main-nav li {
     margin-left: 20px;
+    display: inline-block;
     text-transform: none;
 }
 
@@ -207,11 +198,6 @@ code {
 
 #resume small {
     font-size: 0.5em;
-}
-
-.name {
-    text-transform: capitalize;
-    color: #c00;
 }
 
 #resume h2 {
@@ -228,6 +214,10 @@ code {
 
 #resume .fa-envelope-o {
     color: #888;
+}
+
+#post h2 {
+    text-transform: uppercase;
 }
 
 
