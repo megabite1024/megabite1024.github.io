@@ -152,8 +152,8 @@ code {
 }
 
 .name {
-    text-transform: capitalize;
-    color: #c00;
+    text-transform: capitalize !important;
+    color: #c00 !important;
 }
 
 #main {
@@ -213,10 +213,6 @@ code {
 }
 
 #resume .fa-envelope-o {
-}
-
-#post header time {
-    display: block;
 }
 
 #post h2 {
