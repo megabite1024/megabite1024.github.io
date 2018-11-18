@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Understanding The SCAA Brewing Control Chart - camelCa.se</title>
+        <meta name="description" content="Understanding The SCAA Brewing Control Chart">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic|Inconsolata' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="M:/github/megabite1024.github.io/css/normalize.min.css">
+        <link rel="stylesheet" href="M:/github/megabite1024.github.io/css/main.css">
+        </head>
+    <body>
+        <div id="main">
+            <article id="post">
+                <header>
+                    <time pubdate datetime="2013-12-16 01:28:00" title="2013-12-16 01:28:00">December 16, 2013</time>
+                    <h1>Understanding The SCAA Brewing Control Chart</h1>
+                </header>
+
+                <p>Having read:</p>
+                <ul>
+                    <li><a href="http:/www.theatlantic.com/health/archive/2013/08/how-to-make-perfect-coffee/278944/">How to Make Perfect Coffee</a></li>
+                    <li><a href="http:/en.wikipedia.org/wiki/Coffee_extraction">Coffee Extraction</a></li>
+                    <li><a href="http:/www.mountaincity.com/brewing-1.html">Brewing – The American Standard</a></li>
+                    <li><a href="http:/www.sweetmarias.com/cupping.html">How We Select Our Green Coffees</a></li>
+                </ul>
+                <p>We know that to get a good cup of coffee, we need to know how to control the extraction and measure the strength.</p>
+                <p>There is a tool called the ‘refractometer’ that we can use to measure our coffee. However acquiring one is as expensive as hell.</p>
+                <p>So does this mean that the financially poor coffee drinkers out there are doomed to forever not knowing what is in their cup of coffee? No.</p>
+                <p>I despise uncertainty and I believe with enough knowledge we can do something about it.</p>
+
+                <h2 id="let-us-apply-some-science">Let Us Apply Some Science</h2>
+
+                <h3 id="the-brewing-control-chart">The Brewing Control Chart</h3>
+
+                <p><a href="M:/github/megabite1024.github.io/img/SCAA_brew_chart.jpg"><img src="M:/github/megabite1024.github.io/img/SCAA_brew_chart.jpg" alt="The brewing control chart" title=""></a></p>
+                <p>The American recommended water-to-coffee brewing ratio is 18g water : 1g coffee ground. That is the optimal zone; the IDEAL zone on the center of the graph. This is where the American palate is, where coffee does not taste like shit and widely acceptable.</p>
+
+                <h3 id="the-formula">The Formula</h3>
+
+                <pre><code>strength = brew ratio * extraction
+(dissolved solids / water) = (grounds / water) * (dissolved solids / grounds)</code></pre>
+
+                <h3 id="strength">Strength</h3>
+
+                <p>Strength is measured by how much dissolved coffee solids are in the post-brew water. In other words, strength is the concentration of coffee in your mug.</p>
+                <p>It is calculated in TDS (Total Dissolved Solids) by taking:</p>
+
+                <pre><code>strength = dissolved solids / water</code></pre>
+
+                <p>We use strong or weak to describe the strength.</p>
+                <p>The ideal strength is 1.25%&pm;.10%.</p>
+
+                <h3 id="extraction">Extraction</h3>
+
+                <p>Extraction is measured by how much ground is lost or removed from the dry ground.</p>
+                <p>It is calculated by taking:</p>
+
+                <pre><code>extraction = dissolved solids / grounds</code></pre>
+
+                <p>We use bitterness or under-developed to describe extraction.</p>
+                <p>The ideal extraction is 20%&pm;2%.</p>
+
+                <h3 id="soluble-vs-insoluble">Soluble vs. Insoluble</h3>
+
+                <p>From the articles, what can we know is that:</p>
+                <ul>
+                    <li>Soluble particles extracted from dry ground affect the flavour and aroma.</li>
+                    <li>Insoluble particles affect the body.</li>
+                </ul>
+                <p>In summary,</p>
+
+                <pre><code>strength =&gt; flavour and aroma =&gt; strong/weak of coffee
+extraction =&gt; body =&gt; bitterness of coffee</code></pre>
+
+                <p>A common misconception to describe strong coffee as bitter is untrue.</p>
+                <p>Another thing to take away from all of these info is why decantation in French Press after the brew time is so important. Extraction process has to be stopped by separating the grounds from the coffee. Otherwise your coffee would turn bitter from over-extraction in the press.</p>
+
+                <h2 id="now-do-some-math">Now Do Some Math</h2>
+
+                <p>Taking the same example from the brewing chart site:</p>
+                <blockquote>
+                    <p>For the algebraically inclined, the calculations assume that about 1.5oz of water per oz of ground coffee will remain in the basket after brewing. So if you start with 4oz of ground coffee, pour 1/2 gallon of hot water over it, and measure the strength to be 1300 ppm (1.3% TDS), then the extraction is just</p>
+                    <code>{[64oz water - (4oz coffee * 1.5oz water/oz coffee)] * .013}/4oz coffee ~ 19% extraction</code>
+                </blockquote>
+
+                <p>In everyday brewing scenario, this would be like:</p>
+                <ol>
+                    <li>We have 4oz of coffee ground in our brew basket.</li>
+                    <li>We pour in 64oz of hot water. (16oz water : 1oz ground ratio)</li>
+                    <li>We get 58oz of brewed coffee poured into our mug.</li>
+                    <li>6oz remains in the basket after brewing. (64 - 58)</li>
+                    <li>Strength measured with refractometer is 1.3% TDS.</li>
+                    <li>The extraction calculated from the brew with strength being measured out is around 19%.</li>
+                </ol>
+                <p>Let us do some math to understand better:</p>
+
+                <pre><code>{[64oz water - (4oz coffee x 1.5oz water/oz coffee)] x strength} / 4oz coffee = 0.19 extraction
+=&gt; {[64 - (4 x 1.5)] x strength} / 4 = .188
+=&gt; [64 - (4 x 1.5)] x strength = 0.188 x 4
+=&gt; 58 x strength = 0.754
+=&gt; strength = 0.754 / 58
+=&gt; strength = dissolved solids / post-brew water
+=&gt; strength = (dissolved solids / ground) x (ground / post-brew water)
+=&gt; strength = (ground / post-brew water) x (dissolved solids / ground)
+=&gt; strength = (4 / 58) x (0.754 / 4)
+=&gt; strength = brew ratio x extraction
+=&gt; strength = (4 / 58) x 0.188
+=&gt; 0.013</code></pre>
+
+                <p>The math checks out.</p>
+                <p>One number that is not mentioned in the example is 0.754. The 0.754 here means that 0.754oz out of 4oz of dry grounds is lost during the extraction process.</p>
+
+                <h3 id="adjusting-brew-ratio">Adjusting Brew Ratio</h3>
+
+                <p>Referring to the chart and the formula again:</p>
+                <p><a href="M:/github/megabite1024.github.io/img/SCAA_brew_chart.jpg"><img src="M:/github/megabite1024.github.io/img/SCAA_brew_chart.jpg" alt="The brewing control chart" title="The brewing control chart"></a></p>
+
+                <pre><code>strength = brew ratio * extraction</code></pre>
+
+                <p>On the chart, strength is on the y-axis. To adjust the strength is to move straight up or down from the chart.</p>
+                <p>There are also multiple red lines. They each represents the brew ratios.</p>
+                <p>What this means is if we can somehow maintain our coffee extraction to be consistent each brew while only jumping from one red line to another, we can easily manipulate the strength of our coffee.</p>
+                <p>We can go from weak to strong by only adjusting the brew ratio.</p>
+                <p>Another important thing to take away from adjusting the brewing ratio is that jumping from one red line to another is very sensitive:</p>
+
+                <pre><code>1900ml : 113g = 16.81ml/g
+1900ml : 106g = 17.92ml/g
+17.95 - 16.81 = 1.14ml/g</code></pre>
+
+                <p>So say if you are brewing a cup of coffee with 15g of ground using the 18ml/g brew ratio, you will need to pour 270ml of water.</p>
+                <p>The margin of error is only &pm;17.1ml or &pm;1.14ml/g. 17.1ml more or less water and the coffee flavour changes. This is why investing in a scale is so important.</p>
+
+                <h3 id="adjusting-extraction">Adjusting Extraction</h3>
+
+                <p>Extraction is on the x-axis. Playing around with extraction is where things get really tricky because there are so many variables to factor in. It is part of what makes brewing coffee fun and challenging.</p>
+                <p>Unlike controlling strength which is basically just adjusting the brew ratio to move up or down in a straight line on the control chart, controlling extraction means moving diagonally up or down in a fixed red line (fixed brew ratio).</p>
+                <p>This means two things, adjusting extraction by moving on the red line changes both the bitterness and flavour of the coffee.</p>
+                <p>Whereas adjusting brew ratio with fixed extraction only changes the flavour alone.</p>
+                <p>There are a lot of variables to coffee extraction. I classified them as major variables and minor variables. Major being they can be easily tweaked to achieve distinguishable results. Conversely, minor variables are better left untouched.</p>
+
+                <h2 id="back-to-art">Back To Art</h2>
+
+                <h3 id="adjust-only-one-variable-at-a-time">Adjust Only One Variable At A Time</h3>
+
+                <p>We have heard it a lot of times, to better fine tune our coffee we must adjust only one variable at a time.</p>
+
+                <h3 id="the-major-variables">The Major Variables</h3>
+
+                <h4 id="roast-level">Roast Level</h4>
+
+                <p>Different roast level affects the coffee by a huge amount in terms of flavour, body, weight or volume, caffeine yield and ease of grind.</p>
+                <p>If you measure coffee beans by volume be it by cup or scoop, light roast has more caffeine than dark roast. This is because darker roast has more caffeine that is lost during the roasting process.</p>
+                <p>Conversely, if you measure coffee beans by weight, light roast has less caffeine since dark roast is lighter in weight thus giving more volume than lighter roast. Not to mention that dark roast is much more easier to grind too in you have a hand mill.</p>
+                <p>Note that the brewing control chart was based on a medium roast survey.</p>
+                <p>More on roast level in the calibration section below.</p>
+
+                <h4 id="grind-size">Grind Size</h4>
+
+                <p>Grind size affects the rate of extraction. Finer grinds have much more surface contact with water hence the extraction is much higher than coarser grinds.</p>
+                <p>They key to fixing this variable is to have a good burr grinder that is able to produce a very consistent grind for your brewing method. Investing in a good one goes a long way.</p>
+
+                <h4 id="brew-time">Brew Time</h4>
+
+                <p>Easily one of the best primary extraction variable to control, second to grind size. Adjust the brew time if altering grind size hits a roadblock.</p>
+                <p>Pretty much self-explanatory, longer brew time allows for more coffee to be extracted.</p>
+
+                <h4 id="water-coffee-brewing-ratio">Water-Coffee Brewing Ratio</h4>
+
+                <p>This directly affects the strength of the coffee if played right. It should be used as a secondary variable after tweaking any of the primary variables (variables that affect extraction like grind size and brew time).</p>
+
+                <h4 id="sludge">Sludge</h4>
+
+                <p>Coffee sludge at the end of the cup is a big thing for French Presser. Having too much sludge can cause extraction to keep going and ruining the coffee in the mug.</p>
+                <p>Some brewers even went as far as using a sift to filter out the finer grounds to produce a cleaner cup.</p>
+                <blockquote>
+                  <p><a href="http:/new.livestream.com/worldcoffee/BrewersCup2012Finals/videos/1566416">Here</a> is a link of 2012 World Brewers Cup champion Matt Perger’s winning routine. Essentially what won his routine was the sifting of grounds to sort out all of the undesirable fines. Over the past couple years, this has become quite commonplace in this competition. Some folks are doing it in shops, too, but not quite as many.</p>
+                  
+                  <p>What you’ve come up with is a baffling simple solution to sifters that are often quite pricey. Obviously, it’s not quite as precise as someone might want in a professional setting, but it’s a great idea, and this can absolutely lead to brewing objectively better coffee. Awesome.</p>
+                  
+                  <p><a href="http:/www.reddit.com/r/Coffee/comments/1kwu21/technique_better_french_press_coffee_using_this/cbtlj1t"><em>-/r/coffee</em></a></p>
+                </blockquote>
+
+                <h3 id="the-minor-variables">The Minor Variables</h3>
+
+                <h4 id="water-temperature">Water Temperature</h4>
+
+                <p>Water temperature affects how much coffee (and coffee oil) is extracted when brewing.</p>
+                <p>Best water temperature is around 92°c to 96°c.</p>
+                <p><a href="http:/vimeo.com/65761825">Verve Coffee Roasters has carried out an experiment with water temperature.</a></p>
+                <p>Most important takeaway is to always preheat your brewer and mug to maintain temperature.</p>
+
+                <h4 id="agitation">Agitation</h4>
+
+                <p>How much or how vigorous you stir during the brewing process can have an effect of speeding up the extraction. Best to keep this consistent and play with other extraction variables instead.</p>
+
+                <h4 id="water-type-filteredbottled">Water Type (Filtered/Bottled)</h4>
+
+                <p>There are two types of water:</p>
+                <ul>
+                    <li>hard water is rich of minerals</li>
+                    <li>soft water has less minerals</li>
+                </ul>
+
+                <p>The harder the water, the stronger the extraction. Which can easily causes over-extraction.</p>
+                <p>Soft water has is ideal for brewing. Eg. filtered water.</p>
+                <p><a href="M:/github/megabite1024.github.io/img/scaa-water-standards.png"><img src="M:/github/megabite1024.github.io/img/scaa-water-standards.png" alt="The brewing control chart" title="The brewing control chart"></a></p>
+                <p>Best to use carbon filtered system for coffee. It removes impurities but retains minerals.</p>
+                <p>If you have hard water, grind finer; soft water, grind coarser.</p>
+                <p>Recommended to keep this variable unchanged.</p>
+
+                <h3 id="calibration">Calibration</h3>
+
+                <p>With all those knowledge in mind, it is time to calibrate our brew without a refractometer.</p>
+                <p>Here is how I find the sweet spot whenever I start a new bag of specialty coffees (especially jumping from different roast profiles):</p>
+                <ol>
+                    <li>
+                        <ul>
+                            <li>Start a fixed brewing ratio that you would normally brew with</li>
+                            <li>Or use the SCAA optimal ratio (18g water : 1g coffee).</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>If the coffee is bitter, adjust the primary variable, grind size to a little coarser until the bitterness disappears.</li>
+                            <li>If the coffee is under-developed, adjust grind size to fine until you can taste the bitterness. Then turn the grinder back down to coarse gradually until the bitterness starts to disappear.</li>
+                            <li>This way you will end up in the 20%-22% extraction yield region.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>After you are done with the primary variable, proceed to secondary variable which is the brew ratio.</li>
+                            <li>Maintaining the same brewing procedures, you should be able to stay in the same extraction region.</li>
+                            <li>To control how strong your coffee is, adjust the brewing ratio according to your liking.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <p>Note that this article was written with French Press method in mind. Obviously, other brewing methods come with extra variables. For example, pressure and tamping for espresso; pouring rate or pouring directions for v60. However the concept should be the same.</p>
+
+                <h2 id="in-conclusion">In Conclusion</h2>
+
+                <p>My coffee journey has a single goal in mind: to experience with different sorts of coffee beans (variable). I am by no means an expert. This article was written as a summary of what I learnt and sharing them. I believe with a little science and math, coffee can then be an art. Do <a href="/">contact me</a> if there is any fault in my article. Thanks.</p>            </article>
+        </div>
+    </body>
+</html>
