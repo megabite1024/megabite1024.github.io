@@ -196,10 +196,6 @@ code {
         margin-left: 0;
     }
 
-#resume small {
-    font-size: 0.5em;
-}
-
 #resume h2 {
     text-transform: uppercase;
 }
@@ -213,6 +209,7 @@ code {
 }
 
 #resume .fa-envelope-o {
+    color: #222;
 }
 
 #post h2 {
