@@ -83,7 +83,7 @@ textarea {
 html {
     overflow-y: scroll;
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 body {
@@ -123,7 +123,7 @@ pre {
 
 code {
     font-family: 'Inconsolata', monospace;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .video-embed {
@@ -182,7 +182,7 @@ code {
 #about #main-nav ul {
     margin: 0;
     padding: 0;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
