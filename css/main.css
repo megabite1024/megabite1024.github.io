@@ -170,7 +170,7 @@ code {
 
 #about h1,
 #about h2 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: normal;
     margin: 0;
 }
@@ -182,7 +182,6 @@ code {
 #about #main-nav ul {
     margin: 0;
     padding: 0;
-    font-size: 1em;
     font-weight: bold;
 }
 
@@ -210,6 +209,10 @@ code {
 
 #resume .fa-envelope-o {
     color: #222;
+}
+
+#post .authored-by {
+    font-size: 0.9em;
 }
 
 #post h2 {
