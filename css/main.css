@@ -82,8 +82,10 @@ textarea {
 
 html {
     overflow-y: scroll;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: 'tnum' 1, 'ss02' 1;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 body {
@@ -123,7 +125,8 @@ pre {
 
 code {
     font-family: 'Inconsolata', monospace;
-    font-size: 0.9em;
+    font-size: 0.9rem;
+    line-height: 1.35rem;
 }
 
 .video-embed {
@@ -169,8 +172,9 @@ code {
 
 #about h1,
 #about h2 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: normal;
+    line-height: 1.95rem;
 }
 
 #about #main-nav {
@@ -210,7 +214,8 @@ code {
 }
 
 #post .authored-by {
-    font-size: 0.9em;
+    font-size: 0.9rem;
+    line-height: 1.35rem;
 }
 
 #post h2 {
