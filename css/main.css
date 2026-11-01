@@ -94,6 +94,36 @@ body {
     padding: 0 1em;
 }
 
+h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+h3 {
+    font-size: 1.17rem;
+    line-height: 1.755rem;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h5 {
+    font-size: .83rem;
+    line-height: 1.245rem;
+}
+
+h6 {
+    font-size: .67rem;
+    line-height: 1.005rem;
+}
+
 a,
 a:visited {
     color: #17d;
